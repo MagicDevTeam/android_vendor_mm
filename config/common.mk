@@ -117,9 +117,9 @@ PRODUCT_COPY_FILES += \
     vendor/mm/prebuilt/common/bin/compcache:system/bin/compcache \
     vendor/mm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
-# Default chaos theme
+# Default default theme
 PRODUCT_COPY_FILES += \
-    vendor/mm/prebuilt/common/media/chaos.ctz:system/media/default.ctz
+    vendor/mm/prebuilt/common/media/default.ctz:system/media/default.ctz
     
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
@@ -140,8 +140,8 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
 
 # This is MM!
-PRODUCT_COPY_FILES += \
-    vendor/mm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
+#PRODUCT_COPY_FILES += \
+#    vendor/mm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
 
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \
