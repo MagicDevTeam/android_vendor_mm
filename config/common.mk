@@ -273,7 +273,7 @@ else
     ifeq ($(PRODUCT_VERSION_MINOR),0)
         MM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(MM_BUILDTYPE)$(MM_EXTRAVERSION)-$(MM_BUILD)
     else
-        MM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(MM_BUILDTYPE)$(MM_EXTRAVERSION)-$(MM_BUILD)
+        MM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(MM_BUILDTYPE)$(MM_EXTRAVERSION)-$(MM_BUILD)
     endif
 endif
 
