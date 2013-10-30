@@ -279,7 +279,9 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.mm.version=$(MM_VERSION) \
-  ro.modversion=$(MM_VERSION)
+  ro.modversion=$(MM_VERSION) \
+  ro.mm.mmname=MagicMod \
+  ro.mm.mmversion=4.3-DevelopmentEdition
 
 -include vendor/mm/sepolicy/sepolicy.mk
 -include $(WORKSPACE)/hudson/image-auto-bits.mk
