@@ -173,7 +173,8 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     Apollo \
     LockClock \
-    FileExplorer
+    FileExplorer \
+    MMPhoneNumGeoProvider
 
 # MM Hardware Abstraction Framework
 #PRODUCT_PACKAGES += \
