@@ -2,7 +2,7 @@ PRODUCT_BRAND ?= MagicMod
 
 -include vendor/mm-priv/keys.mk
 SUPERUSER_EMBEDDED := true
-SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.mm.superuser
 
 # To deal with MM9 specifications
 # TODO: remove once all devices have been switched
