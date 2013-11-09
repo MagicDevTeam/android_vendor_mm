@@ -171,7 +171,6 @@ PRODUCT_PACKAGES += \
 
 # Custom MM packages
 PRODUCT_PACKAGES += \
-    Trebuchet \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
