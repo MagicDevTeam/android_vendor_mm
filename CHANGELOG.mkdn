@@ -9,3 +9,7 @@ CHANGELOG (notable new features)
 
 ### jb4.3
 * Common: Android 4.3 (Google)
+
+### kitkat
+
+* Common: Android 4.4 (Google)

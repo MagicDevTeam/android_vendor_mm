@@ -12,7 +12,7 @@ Maintainers (CyanogenMod 10.2):
 * __Asus EeePad Transformer Pad Infinity TF700T:__ dasunsrule32
 * __B&N NookColor (encore):__ eyeballer, fattire, keyodi, krylon360, sluo (NookieDevs)
 * __Google Galaxy Nexus:__ , bekit, Bumble-Bee, burnsra, KalimochoAz, something15525
-* __Google Nexus S:__ burnsra, KalimochoAz
+* __Google Nexus S:__ burnsra, KalimochoAz, klusark
 * __Google Nexus 4:__ rmcc
 * __Google Nexus 7:__ burnsra, fattire, nemith (GSM)
 * __Google Nexus 10:__ atinm, dalingrin, kornyone, gweedo767
@@ -21,8 +21,9 @@ Maintainers (CyanogenMod 10.2):
 * __HTC Evo 4G LTE:__ kushdeck, toastcfh
 * __HTC One (GSM):__ codeworkx, h8rift
 * __HTC One (Sprint):__ kushdeck, toastcfh
-* __HTC One (Verizon):__ flyhalf205
+* __HTC One (Verizon):__ flyhalf205, mdmower
 * __HTC One S:__ intervigil, xkonni
+* __HTC One X:__ gorbi16, mdeejay, tbalden, Thömy
 * __HTC One X+:__ Lloir, tombriden
 * __HTC One XL:__ h8rift, intervigil
 * __LG Optimus LTE (P930) / LG Nitro HD {P935):__ arcee
@@ -80,15 +81,23 @@ Maintainers (CyanogenMod 10.2):
 * __Samsung Galaxy S IV (T-Mobile) (SGH-M919):__ cyanogen
 * __Samsung Galaxy S IV (US Cellular) (SCH-R540):__ noobnl
 * __Samsung Galaxy S IV (Verizon) (SCH-I545):__ invisiblek
+* __Samsung Galaxy S Relay 4G (SGH-T699):__ infernix, lbcoder, nardholio, noptys, teferi (TeamApexQ)
 * __Samsung Galaxy Tab 7" (GSM):__ cdesai, humberos
 * __Samsung Galaxy Tab 7" (CDMA):__ jt1134
 * __Samsung Galaxy Tab 2 7" (GT-P31xx):__ codeworkx
 * __Samsung Galaxy Tab 2 10.1" (GT-P51xx):__ codeworkx
 * __Samsung Vibrant (SGH-T959):__ FaultException
-* __Sony Xperia T (mint):__ jerpelea, Kali- (FreeXperia team), codeworkx, tilal6991
-* __Sony Xperia V (tsubasa):__ jerpelea, Kali- (FreeXperia team), codeworkx, tilal6991
-* __Sony Xperia Z (yuga):__ jerpelea, Kali- (FreeXperia team), cdesai, codeworkx, Entropy512
-* __Sony Xperia ZL (odin):__ jerpelea, Kali- (FreeXperia team)
+* __Sony Xperia SP (huashan):__ jerpelea, Kali- (FreeXperia team), adfad666, uberlaggydarwin
+* __Sony Xperia T (mint):__ jerpelea, Kali- (FreeXperia team), codeworkx, cdesai, tilal6991
+* __Sony Xperia V (tsubasa):__ jerpelea, Kali- (FreeXperia team), codeworkx, tilal6991, championswimmer
+* __Sony Xperia Z (yuga):__ jerpelea, Kali- (FreeXperia team), cdesai, codeworkx, Entropy512, championswimmer
+* __Sony Xperia ZL (odin):__ jerpelea, Kali- (FreeXperia team), championswimmer
+* __Sony Xperia ZR (dogo):__ jerpelea, Kali- (FreeXperia team)
+* __Sony Xperia Tablet Z LTE (pollux):__ jerpelea, Kali- (FreeXperia team), codeworkx
+* __Sony Xperia Tablet Z Wifi (pollux_windy):__ jerpelea, Kali- (FreeXperia team), Bumble-Bee, Entropy512
+* __Sony Xperia Z Ultra (togari):__ jerpelea, Kali- (FreeXperia team)
+* __Sony Xperia Z1 (honami):__ jerpelea, Kali- (FreeXperia team)
+
 
 General developers:
 -------------------
