@@ -71,7 +71,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=1
+    ro.build.selinux=1 \
+    persist.sys.root_access=1
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
@@ -154,7 +155,9 @@ include vendor/mm/config/themes_common.mk
 PRODUCT_PACKAGES += \
     Development \
     LatinIME \
-    BluetoothExt
+    Superuser \
+    BluetoothExt \
+    su
 
 # Optional MM packages
 PRODUCT_PACKAGES += \
@@ -224,7 +227,7 @@ PRODUCT_PACKAGES += \
     rsync
 
 # These packages are excluded from user builds
-ifneq ($(TARGET_BUILD_VARIANT),user)
+#ifneq ($(TARGET_BUILD_VARIANT),user)
 
 PRODUCT_PACKAGES += \
     CMUpdater \
@@ -233,12 +236,12 @@ PRODUCT_PACKAGES += \
 
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+    vendor/mm/proprietary/Term.apk:system/app/Term.apk \
+    vendor/mm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=1
-else
+#else
 
 PRODUCT_PACKAGES += \
     CMFota
@@ -246,7 +249,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
 
-endif
+#endif
 
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
