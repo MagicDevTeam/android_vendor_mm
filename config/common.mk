@@ -1,7 +1,5 @@
 PRODUCT_BRAND ?= MagicMod
 
--include vendor/mm-priv/keys.mk
-
 SUPERUSER_EMBEDDED := true
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.mm.superuser
 
@@ -319,8 +317,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.mm.mmname=MagicMod \
   ro.mm.mmversion=4.3-DevelopmentEdition
 
--include vendor/mm/sepolicy/sepolicy.mk
+#-include vendor/mm/sepolicy/sepolicy.mk
 
--include vendor/cm-priv/keys/keys.mk
+-include vendor/mm-priv/keys/keys.mk
 
 -include $(WORKSPACE)/hudson/image-auto-bits.mk
