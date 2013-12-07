@@ -315,7 +315,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.mm.version=$(MM_VERSION) \
   ro.modversion=$(MM_VERSION) \
   ro.mm.mmname=MagicMod \
-  ro.mm.mmversion=4.4-DevelopmentEdition
+  ro.mm.mmversion=$(PRODUCT_VERSION_MINOR)-DevelopmentEdition
 
 #-include vendor/mm/sepolicy/sepolicy.mk
 
