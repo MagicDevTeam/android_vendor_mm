@@ -3,7 +3,7 @@
 # inherit from MM
 #
 
-BOARD_SEPOLICY_DIRS := \
+BOARD_SEPOLICY_DIRS += \
     vendor/mm/sepolicy
 
 BOARD_SEPOLICY_UNION += \
