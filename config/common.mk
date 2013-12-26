@@ -77,10 +77,6 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
-# Copy our launcher
-PRODUCT_COPY_FILES +=  \
-    vendor/mm/prebuilt/common/app/MagicLauncher.apk:system/app/MagicLauncher.apk \
-
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
     vendor/mm/CHANGELOG.mkdn:system/etc/CHANGELOG-MM.txt
