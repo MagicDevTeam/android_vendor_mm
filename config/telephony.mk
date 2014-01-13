@@ -6,7 +6,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/mm/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
 
-# SIM Toolkit
+# Selective SPN list for operator number who has the problem. 
+PRODUCT_COPY_FILES += \
+    vendor/mm/prebuilt/common/etc/selective-spn-conf.xml:system/etc/selective-spn-conf.xml
+
+
+# Telephony packages
 PRODUCT_PACKAGES += \
     Mms \
     Stk
