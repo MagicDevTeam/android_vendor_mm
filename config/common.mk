@@ -233,6 +233,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/mm/proprietary/Term.apk:system/app/Term.apk \
     vendor/mm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
+# RomCenter
+PRODUCT_COPY_FILES +=  \
+    vendor/mm/prebuilt/common/app/RomCenter.apk:system/priv-app/RomCenter.apk
+
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=1
 #else
