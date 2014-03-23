@@ -233,9 +233,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/mm/proprietary/Term.apk:system/app/Term.apk \
     vendor/mm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
-# RomCenter
+# MagicMod apks
 PRODUCT_COPY_FILES +=  \
-    vendor/mm/prebuilt/common/app/RomCenter.apk:system/priv-app/RomCenter.apk
+    vendor/mm/prebuilt/common/app/RomCenter.apk:system/priv-app/RomCenter.apk \
+    vendor/mm/prebuilt/common/app/SecurityCenter.apk:system/priv-app/SecurityCenter.apk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=1
