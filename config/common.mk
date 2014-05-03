@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES +=  \
 # MagicMod apks
 PRODUCT_COPY_FILES +=  \
     vendor/mm/prebuilt/common/app/RomCenter.apk:system/priv-app/RomCenter.apk \
+    vendor/mm/prebuilt/common/lib/RomCenter/armeabi/libjpush.so:system/lib/libjpush.so \
     vendor/mm/prebuilt/common/app/SecurityCenter.apk:system/priv-app/SecurityCenter.apk
 
 PRODUCT_PROPERTY_OVERRIDES += \
